@@ -29,8 +29,25 @@
 
     padding: 24px;
     
-    h2 {
-      margin-top: 8px;
+
+    &:has(.text-lg) {
+    
+     padding: 12px;
+    
     }
+    
+    h2 {
+      
+      margin-top: 8px;
+  
+    }
+
+    /* h2.text-lg {
+      text-align: justify ;
+    }
+
+    h2.text-2xl {
+      text-align: justify ;
+    } */
   }
-}
+} 
